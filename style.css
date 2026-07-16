@@ -16,6 +16,7 @@ background:#f9f5ea;
 color:#222;
 line-height:1.7;
 overflow-x:hidden;
+padding-top:80px;
 }
 
 img{
@@ -101,6 +102,11 @@ grid-template-columns:1fr 1fr;
 align-items:center;
 gap:70px;
 min-height:100vh;
+scroll-margin-top:80px;
+}
+
+#home{
+scroll-margin-top:80px;
 }
 
 .small{
@@ -181,6 +187,7 @@ box-shadow:0 25px 50px rgba(0,0,0,.18);
 #about{
 background:white;
 text-align:center;
+scroll-margin-top:80px;
 }
 
 #about h2{
@@ -198,6 +205,7 @@ color:#555;
 
 #services{
 background:#f4efdf;
+scroll-margin-top:80px;
 }
 
 #services h2{
@@ -237,6 +245,10 @@ margin-bottom:15px;
 color:#244126;
 }
 
+#gallery{
+scroll-margin-top:80px;
+}
+
 .gallery{
 display:grid;
 grid-template-columns:repeat(2,1fr);
@@ -256,6 +268,10 @@ cursor:pointer;
 transform:scale(1.04);
 }
 
+#chairman{
+scroll-margin-top:80px;
+}
+
 .chairman-box{
 display:grid;
 grid-template-columns:350px 1fr;
@@ -269,6 +285,10 @@ box-shadow:0 10px 30px rgba(0,0,0,.08);
 
 .chairman-box img{
 border-radius:20px;
+}
+
+#contact{
+scroll-margin-top:80px;
 }
 
 form{
